@@ -1,0 +1,22 @@
+RewriteEngine on
+
+RewriteRule ^halaman-utama-admin beranda-admin.php
+RewriteRule ^data-user data-user.php
+RewriteRule ^data-fasilitas data-fasilitas-sma.php
+RewriteRule ^tambah-user tambah-data-user.php
+RewriteRule ^tambah-fasilitas tambah-data-fasilitas.php
+RewriteRule ^proses-tambah-user ../aksi/proses-tambah-data-user.php
+RewriteRule ^proses-tambah-fasilitas ../aksi/proses-tambah-data-fasilitas.php
+RewriteRule ^ubah-data-user ubah-data-user.php
+RewriteRule ^proses-ubah-user ../aksi/proses-ubah-data-user.php
+RewriteRule ^hapus-data-user ../aksi/proses-hapus-data-user.php
+RewriteRule ^tambah-pemetaan tambah-data-pemetaan.php
+RewriteRule ^proses-tambah-pemetaan ../aksi/proses-tambah-data-pemetaan.php
+RewriteRule ^ubah-data-pemetaan ubah-data-pemetaan.php
+RewriteRule ^proses-ubah-pemetaan ../aksi/proses-ubah-data-pemetaan.php
+RewriteRule ^hapus-data-pemetaan ../aksi/proses-hapus-data-pemetaan.php
+RewriteRule ^hapus-data-fasilitas ../aksi/proses-hapus-data-fasilitas.php
+RewriteRule ^data-detail-daftar-sma data-detail-daftar-sma.php
+RewriteRule ^cari-nama-sma cari-daftar-sma.php
+RewriteRule ^profil-admin data-profil-admin.php
+RewriteRule ^admin-keluar proses-logout.php
